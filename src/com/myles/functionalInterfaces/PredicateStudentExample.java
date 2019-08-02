@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 
 public class PredicateStudentExample {
 
-    private static Predicate<Student> predicate = (student) -> student.getGradeLevel() >= 3;
+    static Predicate<Student> predicate = (student) -> student.getGradeLevel() >= 3;
 
     private static Predicate<Student> predicate2 = (student) -> student.getGpa() >= 3.9;
 
