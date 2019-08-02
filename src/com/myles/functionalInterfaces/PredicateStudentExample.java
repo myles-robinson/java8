@@ -10,7 +10,7 @@ public class PredicateStudentExample {
 
     static Predicate<Student> predicate = (student) -> student.getGradeLevel() >= 3;
 
-    private static Predicate<Student> predicate2 = (student) -> student.getGpa() >= 3.9;
+    static Predicate<Student> predicate2 = (student) -> student.getGpa() >= 3.9;
 
     private static void filterStudentByGradeLevel() {
 

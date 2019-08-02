@@ -30,7 +30,7 @@ public class ConsumerExample {
     }
 
     private static void lowercase(String word) {
-        Consumer<String> temp = (w -> System.out.println(w.toLowerCase()));
+        Consumer<String> temp = (w) -> System.out.println(w.toLowerCase());
         temp.accept(word);
     }
 
