@@ -5,6 +5,7 @@ import java.util.function.BinaryOperator;
 
 public class BinaryOperatorExample {
 
+    // takes 2 arguments of same type and returns 1 output of said type
     static Comparator<Integer> comparator = (a, b) -> a.compareTo(b);
 
     public static void main(String[] args) {
