@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25434f0c-f4f7-41d4-97a3-058c8bc5a025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/myles/streams/StreamsFlatMapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/myles/streams/StreamsMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/myles/streams/StreamsComparatorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/myles/streams/StreamsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myles/streams/StreamsExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/myles/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/myles/data/Student.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,15 +33,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsFlatMapExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsComparatorExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Comparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="355" column="66" selection-start-line="355" selection-start-column="66" selection-end-line="355" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/myles/data/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+              <folding>
+                <element signature="e#531#532#0" expanded="true" />
                 <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="199" column="50" selection-start-line="199" selection-start-column="50" selection-end-line="199" selection-end-column="50" />
+            <state relative-caret-position="302">
+              <caret line="387" column="14" selection-start-line="387" selection-start-column="14" selection-end-line="387" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -102,13 +130,14 @@
         <option value="$PROJECT_DIR$/src/com/myles/methodRefence/ConsumerMethodReferenceExample.java" />
         <option value="$PROJECT_DIR$/src/com/myles/data/StudentDatabase.java" />
         <option value="$PROJECT_DIR$/src/com/myles/methodRefence/RefactorMethodReferenceExample.java" />
-        <option value="$PROJECT_DIR$/src/com/myles/data/Student.java" />
         <option value="$PROJECT_DIR$/src/com/myles/constuctorReference/ConstructorReferenceExample.java" />
         <option value="$PROJECT_DIR$/src/com/myles/lambdas/LambdaVariable1.java" />
         <option value="$PROJECT_DIR$/src/com/myles/functionalInterfaces/PredicateStudentExample.java" />
         <option value="$PROJECT_DIR$/src/com/myles/streams/StreamsExample.java" />
         <option value="$PROJECT_DIR$/src/com/myles/streams/StreamsMapExample.java" />
         <option value="$PROJECT_DIR$/src/com/myles/streams/StreamsFlatMapExample.java" />
+        <option value="$PROJECT_DIR$/src/com/myles/data/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/myles/streams/StreamsComparatorExample.java" />
       </list>
     </option>
   </component>
@@ -186,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamsFlatMapExample">
+  <component name="RunManager" selected="Application.StreamsComparatorExample">
     <configuration name="ConstructorReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.myles.constuctorReference.ConstructorReferenceExample" />
       <module name="java8" />
@@ -200,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefactorMethodReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myles.methodRefence.RefactorMethodReferenceExample" />
+    <configuration name="StreamsComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myles.streams.StreamsComparatorExample" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myles.methodRefence.*" />
+          <option name="PATTERN" value="com.myles.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,19 +282,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RefactorMethodReferenceExample" />
       <item itemvalue="Application.ConstructorReferenceExample" />
       <item itemvalue="Application.StreamsExample" />
       <item itemvalue="Application.StreamsMapExample" />
       <item itemvalue="Application.StreamsFlatMapExample" />
+      <item itemvalue="Application.StreamsComparatorExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamsComparatorExample" />
         <item itemvalue="Application.StreamsFlatMapExample" />
         <item itemvalue="Application.StreamsMapExample" />
         <item itemvalue="Application.StreamsExample" />
         <item itemvalue="Application.ConstructorReferenceExample" />
-        <item itemvalue="Application.RefactorMethodReferenceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +343,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26805252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26805252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,12 +352,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32914045" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32914045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32914045" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32914045" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -572,17 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/myles/data/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding>
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/myles/constuctorReference/ConstructorReferenceExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -638,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="199" column="50" selection-start-line="199" selection-start-column="50" selection-end-line="199" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsMapExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -655,14 +666,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="387" column="14" selection-start-line="387" selection-start-column="14" selection-end-line="387" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myles/data/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+          <folding>
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsFlatMapExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="355" column="66" selection-start-line="355" selection-start-column="66" selection-end-line="355" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsComparatorExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
           </folding>
         </state>
       </provider>
