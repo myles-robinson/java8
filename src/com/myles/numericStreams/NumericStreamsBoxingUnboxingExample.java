@@ -8,6 +8,9 @@ public class NumericStreamsBoxingUnboxingExample {
 
     public static void main(String[] args) {
         System.out.println("Boxing : " + boxing());
+
+        List<Integer> integerList = boxing();
+        System.out.println("Unboxing : " + unboxing(integerList));
     }
 
     static List<Integer> boxing() {
@@ -15,6 +18,13 @@ public class NumericStreamsBoxingUnboxingExample {
                 // int
                 .boxed()
                 .collect(Collectors.toList()); // converts to Integer
+    }
+
+    static int unboxing(List<Integer> list) { // wrapper to primitive
+
+        return list.stream()
+                .mapToInt(Integer::intValue)// returns int stream
+                .sum();
     }
 
 }
