@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25434f0c-f4f7-41d4-97a3-058c8bc5a025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/myles/streams/StreamsFindAnyFirstExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/myles/streams/StreamsLimitSkipExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/myles/streams/StreamsMatchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamAggregateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamRangesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamsBoxingUnboxingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/myles/streams/StreamOfGenerateIterateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java8.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,9 +25,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19312">
+              <caret line="1186" column="30" selection-start-line="1186" selection-start-column="21" selection-end-line="1186" selection-end-column="30" />
+              <folding>
+                <element signature="e#56709#56710#0" expanded="true" />
+                <element signature="e#56753#56754#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsLimitSkipExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
+            <state relative-caret-position="476">
               <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,14 +58,82 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsFindAnyFirstExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="58" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="58" />
+            <state relative-caret-position="187">
+              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamOfGenerateIterateExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamsExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamRangesExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamAggregateExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamsBoxingUnboxingExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/IntStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="680" column="19" selection-start-line="680" selection-start-column="19" selection-end-line="680" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -64,6 +146,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>::</find>
+      <find>Integer::sum</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,6 +191,11 @@
         <option value="$PROJECT_DIR$/src/com/myles/streams/StreamsLimitSkipExample.java" />
         <option value="$PROJECT_DIR$/src/com/myles/streams/StreamsMatchExample.java" />
         <option value="$PROJECT_DIR$/src/com/myles/streams/StreamsFindAnyFirstExample.java" />
+        <option value="$PROJECT_DIR$/src/com/myles/streams/StreamOfGenerateIterateExample.java" />
+        <option value="$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamsExample.java" />
+        <option value="$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamRangesExample.java" />
+        <option value="$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamAggregateExample.java" />
+        <option value="$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamsBoxingUnboxingExample.java" />
       </list>
     </option>
   </component>
@@ -144,14 +237,7 @@
               <item name="java8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="myles" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="myles" type="462c0819:PsiDirectoryNode" />
-              <item name="streams" type="462c0819:PsiDirectoryNode" />
+              <item name="numericStreams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,13 +270,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamsFindAnyFirstExample">
-    <configuration name="StreamMapReduceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myles.streams.StreamMapReduceExample" />
+  <component name="RunManager" selected="Application.NumericStreamsBoxingUnboxingExample">
+    <configuration name="NumericStreamAggregateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myles.numericStreams.NumericStreamAggregateExample" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myles.streams.*" />
+          <option name="PATTERN" value="com.myles.numericStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsFindAnyFirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myles.streams.StreamsFindAnyFirstExample" />
+    <configuration name="NumericStreamRangesExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myles.numericStreams.NumericStreamRangesExample" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myles.streams.*" />
+          <option name="PATTERN" value="com.myles.numericStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,12 +297,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsLimitSkipExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myles.streams.StreamsLimitSkipExample" />
+    <configuration name="NumericStreamsBoxingUnboxingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myles.numericStreams.NumericStreamsBoxingUnboxingExample" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myles.streams.*" />
+          <option name="PATTERN" value="com.myles.numericStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,12 +310,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsMatchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myles.streams.StreamsMatchExample" />
+    <configuration name="NumericStreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myles.numericStreams.NumericStreamsExample" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myles.streams.*" />
+          <option name="PATTERN" value="com.myles.numericStreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,8 +323,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsMinMaxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myles.streams.StreamsMinMaxExample" />
+    <configuration name="StreamOfGenerateIterateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myles.streams.StreamOfGenerateIterateExample" />
       <module name="java8" />
       <extension name="coverage">
         <pattern>
@@ -251,19 +337,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StreamMapReduceExample" />
-      <item itemvalue="Application.StreamsMinMaxExample" />
-      <item itemvalue="Application.StreamsLimitSkipExample" />
-      <item itemvalue="Application.StreamsMatchExample" />
-      <item itemvalue="Application.StreamsFindAnyFirstExample" />
+      <item itemvalue="Application.StreamOfGenerateIterateExample" />
+      <item itemvalue="Application.NumericStreamsExample" />
+      <item itemvalue="Application.NumericStreamRangesExample" />
+      <item itemvalue="Application.NumericStreamAggregateExample" />
+      <item itemvalue="Application.NumericStreamsBoxingUnboxingExample" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamsFindAnyFirstExample" />
-        <item itemvalue="Application.StreamsMatchExample" />
-        <item itemvalue="Application.StreamsLimitSkipExample" />
-        <item itemvalue="Application.StreamsMinMaxExample" />
-        <item itemvalue="Application.StreamMapReduceExample" />
+        <item itemvalue="Application.NumericStreamsBoxingUnboxingExample" />
+        <item itemvalue="Application.NumericStreamAggregateExample" />
+        <item itemvalue="Application.NumericStreamRangesExample" />
+        <item itemvalue="Application.NumericStreamsExample" />
+        <item itemvalue="Application.StreamOfGenerateIterateExample" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +370,7 @@
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26805252" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26805252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,7 +398,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26805252" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26805252" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,12 +407,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32914045" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32914045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32914045" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32914045" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -415,13 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -642,27 +721,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="796" column="28" selection-start-line="796" selection-start-column="28" selection-end-line="796" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/function/BinaryOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamReduceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="37" column="74" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,10 +773,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsLimitSkipExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamReduceExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="629">
+          <caret line="37" column="74" selection-start-line="37" selection-start-column="74" selection-end-line="37" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamsExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamOfGenerateIterateExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsFindAnyFirstExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -728,12 +827,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsFindAnyFirstExample.java">
+    <entry file="file://$PROJECT_DIR$/src/com/myles/streams/StreamsLimitSkipExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="58" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="58" />
+        <state relative-caret-position="476">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19312">
+          <caret line="1186" column="30" selection-start-line="1186" selection-start-column="21" selection-end-line="1186" selection-end-column="30" />
+          <folding>
+            <element signature="e#56709#56710#0" expanded="true" />
+            <element signature="e#56753#56754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamRangesExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.2/lib/src.zip!/java.base/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="680" column="19" selection-start-line="680" selection-start-column="19" selection-end-line="680" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamAggregateExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/myles/numericStreams/NumericStreamsBoxingUnboxingExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
           </folding>
         </state>
       </provider>
