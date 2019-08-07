@@ -2,12 +2,20 @@ package com.myles.data;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Supplier;
+
+
 
 public class StudentDatabase {
 
     public static Supplier<Student> studentSupplier = () -> {
-       return new Student("Emily",3,4.0,"female", Arrays.asList("swimming", "gymnastics","aerobics"));
+        Bike bike = new Bike();
+        bike.setName("Cool Bike");
+        bike.setModel("Cool Model");
+        Student student = new Student("Emily",3,4.0,"female", Arrays.asList("swimming", "gymnastics","aerobics"));
+        student.setBike(Optional.of(bike));
+        return student;
     };
 
     public static List<Student> getAllStudents() {

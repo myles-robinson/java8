@@ -1,14 +1,16 @@
 package com.myles.data;
 
 import java.util.List;
+import java.util.Optional;
 
 public class Student {
     private String name;
     private int gradeLevel;
     private Double gpa;
     private String gender;
-    List<String> activities;
+    private List<String> activities;
     private int notebooks;
+    private Optional<Bike> bike = Optional.empty();
 
     public Student(String name, int gradeLevel, Double gpa, String gender, List<String> activities) {
         this.name = name;
@@ -29,6 +31,14 @@ public class Student {
 
     public Student() {
 
+    }
+
+    public Optional<Bike> getBike() {
+        return bike;
+    }
+
+    public void setBike(Optional<Bike> bike) {
+        this.bike = bike;
     }
 
     public Student(String s) {
@@ -91,11 +101,13 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "name=" + name +
+                "name='" + name + '\'' +
                 ", gradeLevel=" + gradeLevel +
                 ", gpa=" + gpa +
                 ", gender='" + gender + '\'' +
                 ", activities=" + activities +
+                ", notebooks=" + notebooks +
+                ", bike=" + bike +
                 '}';
     }
 }
